@@ -1,0 +1,166 @@
+ol.pokemons {
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: none;
+}
+
+ol.pokemons .pokemon{
+    color: white;
+    text-transform: capitalize;
+    padding: 0.625rem;
+    border-radius: 10px;
+    margin: 0.425rem;
+}
+
+ol.pokemons .pokemon .number {
+    float: right;
+    color: rgb(66, 124, 95);
+    opacity: 0.3;
+}
+
+ol.pokemons .pokemon .detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+ol.pokemons .pokemon .detail .types {
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+ol.pokemons .pokemon .detail .types .type {
+    padding: 0.350rem;
+    margin: 0.250rem;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 0.825rem;
+    filter: brightness(1.1);
+    text-align: center;
+}
+
+ol.pokemons .pokemon .detail img {
+    max-width: 100%;
+    width: 100px;
+}
+@media screen and (min-width: 100px) {
+    ol.pokemons {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 439px) {
+    ol.pokemons {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 646px) {
+    ol.pokemons {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    ol.pokemons {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.paginacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625px;
+    padding: 1rem;
+    width: 100%;
+}
+
+.paginacao button{
+    background-color:#678fee;
+    color: white;
+    padding: 0.625rem;
+    outline-style: none;
+}
+.paginacao button:hover {
+    box-shadow: #5382ee;
+    background-color: #5382ee;
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+

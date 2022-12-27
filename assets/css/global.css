@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+body {
+    background-color: #f6f8FC;
+
+
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    min-width: 212px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
+
+
+.content h1 {
+    padding: 1rem 0;
+    margin: 0.625rem;
+}
+
